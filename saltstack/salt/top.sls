@@ -4,4 +4,8 @@ base:
   'minion2':
     - nettools
   'minion2':
-    - apache    
+    - apache
+    - base
+
+    
+         

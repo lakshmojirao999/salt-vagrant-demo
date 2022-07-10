@@ -2,4 +2,6 @@ base:
   '*':
     - default
   'minion2':
-    - apache  
+    - apache
+    - base
+   

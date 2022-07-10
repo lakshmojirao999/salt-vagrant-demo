@@ -14,4 +14,4 @@ base-packages:
       - tmpreaper
       - mailutils
 {% endif %}
-Footer
+
