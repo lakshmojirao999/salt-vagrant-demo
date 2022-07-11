@@ -33,3 +33,15 @@ using Salt.
 
     vagrant ssh master
     sudo salt \* test.ping
+
+
+Commnd to debug salt state
+```
+salt-call --local state.apply <apache> -l debug
+``` 
+
+Commad to apply specific state minion
+```
+salt 'minion2' state.apply <apache>
+```
+
